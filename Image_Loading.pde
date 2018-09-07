@@ -34,4 +34,27 @@ class imageLoading {
     imgTree = loadImage("Tree.png");
     imgUmbrellaMan = loadImage("UmbrellaMan.png");
   }
+
+  void displayBlocks() {
+    fill(0);
+    text("What block day is it?", 20, 15);
+    image(imgA1, 20, 20, 30, 30);
+    noFill();
+    stroke(0);
+    rect(50, 20, 30, 30);
+    image(imgB1, 20, 50, 30, 30);
+    rect(50, 50, 30, 30);
+    image(imgC1, 20, 80, 30, 30);
+    rect(50, 80, 30, 30);
+    image(imgD1, 20, 110, 30, 30);
+    rect(50, 110, 30, 30);
+    image(imgE1, 20, 140, 30, 30);
+    rect(50, 140, 30, 30);
+    image(imgF1, 20, 170, 30, 30);
+    rect(50, 170, 30, 30);
+    image(imgG1, 20, 200, 30, 30);
+    rect(50, 200, 30, 30);
+    image(imgH1, 20, 230, 30, 30);
+    rect(50, 230, 30, 30);
+  }
 }
